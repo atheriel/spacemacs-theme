@@ -531,6 +531,18 @@
      `(markdown-header-face-5 ((,class (:bold nil :foreground ,head1))))
      `(markdown-header-face-6 ((,class (:bold nil :foreground ,head2))))
 
+;;;;; mingus
+     `(mingus-directory-face   ((,class (:foreground ,head1))))
+     `(mingus-playlist-face    ((,class (:foreground ,head2 ))))
+     `(mingus-playing-face     ((,class (:foreground ,comment))))
+     `(mingus-pausing-face     ((,class (:foreground ,lnum))))
+     `(mingus-stopped-face     ((,class (:foreground ,highlight-dim))))
+     `(mingus-mark-face        ((,class (:foreground ,highlight))))
+     `(mingus-song-file-face   ((,class (:foreground ,base))))
+     `(mingus-artist-face      ((,class (:foreground ,keyword))))
+     `(mingus-album-face       ((,class (:foreground ,func))))
+     `(mingus-album-stale-face ((,class (:foreground ,func))))
+
 ;;;;; mode-line
      `(mode-line           ((,class (:foreground ,base :background ,act1 :box (:color ,border :line-width 1)))))
      `(mode-line-inactive  ((,class (:foreground ,base :background ,bg1  :box (:color ,border :line-width 1)))))
